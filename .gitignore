@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# API Keys & Secrets
+.env
+*.key
+*.pem
+service-account.json
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific (nếu có)
+backend/__pycache__/
+frontend/__pycache__/
